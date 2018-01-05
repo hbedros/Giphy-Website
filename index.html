@@ -7,14 +7,22 @@
     <!-- css -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- js -->
-    <script src="assets/js/giphy.js"></script>
-    <script> src="https://code.jquery.com/jquery-3.2.1.min.js"</script>
-  
+   
 </head>
 <body>
+  
+  <form id="giphy-form" method="post" action="#">
+      <!-- GIPHY will get dumped here -->
+      <div id="giphy-view"></div>
 
+      <input id="giphy-input" type="text"><br>
 
+      <!-- Button triggers new GIPHY to be added -->
+      <input id="add-giphy" type="submit" value="Add a GIPHY">
+  </form>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="assets/js/giphy.js"></script>
 </body>
 </html>

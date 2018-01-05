@@ -1,3 +1,7 @@
-.esh {
-    font-size: 300px;
+body {
+    background-color: lightblue;
+}
+
+#giphy-input, #add-giphy{
+    margin-left: 70%;
 }
