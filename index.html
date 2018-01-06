@@ -1,28 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+</!DOCTYPE html>
+<html>
 <head>
-    <title>Giphy Website</title>
-    <meta charset="UTF-8">
-
-    <!-- css -->
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-   
+	<title>Giphy Website</title>
+	<link rel="stylesheet" href="./assets/css/reset.css"></link>
+	<link rel="stylesheet" href="./assets/css/style.css"></link>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="./assets/js/app.js"></script>
 </head>
 <body>
-  
-  <form id="giphy-form" method="post" action="#">
-      <!-- GIPHY will get dumped here -->
-      <div id="giphy-view"></div>
 
-      <input id="giphy-input" type="text"><br>
+    <div id="added-buttons" class="options"></div>
+    
+    <div id="inputForm">
+    <input id="gif-input" type="text" value=""><br>
+    <input id="add-gif" type="submit" value="Add"><br>
+    </div>
 
-      <!-- Button triggers new GIPHY to be added -->
-      <input id="add-giphy" type="submit" value="Add a GIPHY">
-  </form>
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- GIPHY will get dumped here -->
+    <div class="gif-view"></div>
 
-  <script src="assets/js/giphy.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
