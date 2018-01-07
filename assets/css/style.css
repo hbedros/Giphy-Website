@@ -1,9 +1,9 @@
 body {
     background-color: lightblue;
-    padding: 1% 5% 5% 5%;
+    padding: 1% 3% 5% 3%;
 }
 
-#gif-input, #add-gif{
+#gif-input, #add-gif, h5{
     margin-left: 80%;
 }
 
@@ -22,7 +22,11 @@ body {
     color: aliceblue;
 }
 
-#add-gif:hover, button:hover {
+h5 {
+    font-size: 20px;
+}
+
+#add-gif:hover, button:hover{
 	background-color:  rgba(91, 121, 138, 0.671);
 }
 
@@ -36,3 +40,34 @@ button {
     
 }
 
+p{
+    color: rgb(59, 77, 87);
+    border: solid;
+    border-color: aliceblue;
+    border-width: 1px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.541);
+}
+
+.gif-view {
+    width: 90%;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.added-gifs {
+	min-height: 250px;
+    max-height: 300px;
+    float: right;
+	margin: 5px;
+	padding-top: 5px;
+}
+
+img:hover {
+    opacity: 0.3;
+}
+
+img {
+	max-width: 200px;
+	max-height: 250px;	
+}
