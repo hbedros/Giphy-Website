@@ -11,7 +11,6 @@ https://hbedros.github.io/Giphy-Website/
 <img width="1265" alt="screen shot 2018-03-23 at 2 26 31 pm" src="https://user-images.githubusercontent.com/30307915/37854009-4f0f6dca-2ea6-11e8-9032-046b5c7e5ccf.png">
 
 ## Technologies used
-- Bootstrap
 - jQuery
 - Giphy API
 
